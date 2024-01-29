@@ -1,0 +1,460 @@
+body{
+    background-color: #ebffe5;
+
+}
+.forumfront {
+    background-color: #ebffe5;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  
+  .forumfront .dashcard {
+    background-color: #ebffe5;
+    height: 1080px;
+    position: fixed;
+    width: 1793px;
+    padding-bottom: 20px;
+  }
+  
+  
+  .forumfront .overlap {
+    left: 1000px;
+    position: absolute;
+    top: 242px;
+    width: 100%; /* Full width on small devices */
+  }
+
+  .searchbee{
+    position: absolute;
+    padding:10px ;
+    width: 200px;
+    margin-left:240px
+    
+  }
+
+  .buttonSearch{
+    margin-left: 440px;
+    padding: 10px;
+    width: 50px;
+  }
+  
+  
+  /* .forumfront .text-wrapper {
+    color: #00000070;
+    font-family: "Inter-Light", Helvetica;
+    font-size: 25px;
+    font-weight: 300;
+    left: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 13px;
+    width: 189px;
+  } */
+  
+  
+  /* .forumfront .search-instance {
+    height: 24px !important;
+    left: 354px !important;
+    position: absolute !important;
+    top: 17px !important;
+    width: 25px !important;
+  } */
+  
+  
+  .forumfront .second {
+    background-color: #bce8b1;
+    height: 120px;
+    left: 0;
+    position: fixed;
+    top: 69px;
+    width: 100%;
+  }
+  
+  .ForumTitle{
+    padding: 25px;
+    margin-left: 20px;
+    color: #145a32;
+    text-shadow:2px 2px rgb(130, 210, 149);
+  }
+
+  .forumfront .textTop {
+    color: #145a32;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 48px;
+    font-weight: 600;
+    left: 127px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0px 4px 4px #00000040;
+    top: 35px;
+  }
+  
+  
+  .forumfront .div-wrapper {
+    background-color: #0e3b03;
+    border-radius: 5px;
+    height: 53px;
+    left: 1544px;
+    position: absolute;
+    top: 40px;
+    width: 200px;
+  }
+  
+  
+  .forumfront .buttonadd {
+    color: #ffffff;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 1050px;
+    position: absolute;
+    text-align: center;
+    top: 14px;
+    white-space: nowrap;
+    width: 186px;
+  }
+
+  .frontadd:hover{
+    color:whitesmoke
+  }
+
+
+  .forumfront .buttonnew {
+    color: #ffffff;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 850px;
+    position: absolute;
+    text-align: center;
+    top: 14px;
+    white-space: nowrap;
+    width: 186px;
+  }
+  
+  
+  /* .forumfront .third {
+    background-color: #62b84d;
+    border-radius: 5px;
+    height: 53px;
+    left: 1335px;
+    position: absolute;
+    top: 40px;
+    width: 200px;
+  } */
+  
+  
+  .LANDING {
+    background-color: #d8ffcf;
+    height: 69px;
+    overflow:hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    
+  }
+  
+  
+  .forumfront .tsukiden-logo {
+    padding: 10px;
+    margin-left: 10px;
+    position: fixed;
+    top: 9px;
+    
+  }
+  
+  h6{
+    color:#0e3b03;
+  }
+  .forumfront .rectangle {
+    background-color: #02ae51;
+    height: 971px;
+    left: 0;
+    position: absolute;
+    top: 105px;
+    width: 362px;
+  }
+  
+  
+  .forumfront .forumdashboard {
+    padding: 13px;
+    margin-left: 180px;
+    position: fixed;
+    top: 9px;
+    
+  }
+  
+  
+  .forumfront .forumprofile {
+    padding: 13px;
+    margin-left: 300px;
+    position: fixed;
+    top: 9px;
+  }
+  
+  
+  .forumfront .forumcourses {
+    padding: 13px;
+    margin-left: 385px;
+    position: fixed;
+    top: 9px;
+  }
+  
+  
+  .forumfront .forum {
+    padding: 13px;
+    margin-left: 510px;
+    position: fixed;
+    top: 9px;
+  }
+  
+  
+  .forumfront .toprightbutton {
+    top: 14px;
+    width: 98px;
+  }
+  
+  .cardcontainer{
+    width: 500px;
+    height: 250px;
+    background-color: #c3e6cb; /* Change the color to your preferred one */
+    padding: 15px; /* Adjust the padding as needed */
+    margin-top: 500px; /* Adjust the margin as needed */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    z-index: 0;
+  }
+
+  .CardTitle{
+    align-items: center;
+  }
+
+  .forumfront .buttonout {
+    color: #0e3b03;
+    padding: 8px;
+    margin-left: 1175px;
+    margin-top: 10px;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 8px;
+
+  }
+  
+  
+  .forumfront .bottombutton {
+    margin-top: 800px;
+    top: 800px;
+    width: 200px;
+    z-index: 2;
+  }
+  
+  
+  .forumfront .overlap-4 {
+    background-color: #0e3b03;
+    border-radius: 5px;
+    height: 37px;
+    left: 103px;
+    position: absolute;
+    top: 262px;
+    width: 128px;
+  }
+  
+  
+  .forumfront .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    left: 34px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 5px;
+    white-space: nowrap;
+    width: 93px;
+  }
+  
+  
+  .forumfront .conversion {
+    height: 31px;
+    left: 11px;
+    position: absolute;
+    top: 3px;
+    width: 25px;
+  }
+  
+  
+  .forumfront .overlap-5 {
+    background-color: #c3e6cb;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 177px;
+    left: 103px;
+    position: absolute;
+    top: 336px;
+    width: 1641px;
+  }
+  
+  
+  .forumfront .bx-chat {
+    height: 53px;
+    left: 1512px;
+    position: absolute;
+    top: 39px;
+    width: 53px;
+  }
+  
+  
+  .forumfront .text-wrapper-6 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    left: 41px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 43px;
+  }
+  
+  
+  .forumfront .posted-by-your-name {
+    color: #000000;
+    font-family: "Inter-ExtraLight", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 41px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 102px;
+    white-space: nowrap;
+  }
+  
+  
+  .forumfront .span {
+    font-weight: 200;
+  }
+  
+  
+  .forumfront .text-wrapper-7 {
+    font-family: "Inter-Light", Helvetica;
+    font-weight: 300;
+  }
+  
+  
+  .forumfront .text-wrapper-8 {
+    color: #000000;
+    font-family: "Inter-ExtraLight", Helvetica;
+    font-size: 25px;
+    font-weight: 200;
+    left: 309px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 102px;
+    white-space: nowrap;
+  }
+  
+  
+  .forumfront .text-wrapper-9 {
+    color: #000000;
+    font-family: "Inter-ExtraLight", Helvetica;
+    font-size: 25px;
+    font-weight: 200;
+    left: 1474px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 102px;
+    white-space: nowrap;
+  }
+  
+  
+  .forumfront .overlap-6 {
+    background-color: #c3e6cb;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 177px;
+    left: 103px;
+    position: absolute;
+    top: 540px;
+    width: 1634px;
+  }
+  
+  
+  .forumfront .img {
+    height: 53px;
+    left: 1507px;
+    position: absolute;
+    top: 30px;
+    width: 53px;
+  }
+  
+  
+  .forumfront .text-wrapper-10 {
+    color: #000000;
+    font-family: "Inter-ExtraLight", Helvetica;
+    font-size: 25px;
+    font-weight: 200;
+    left: 1474px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 100px;
+    white-space: nowrap;
+  }
+  
+  
+  .forumfront .overlap-7 {
+    background-color: #c3e6cb;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 177px;
+    left: 103px;
+    position: absolute;
+    top: 744px;
+    width: 1634px;
+  }
+  
+  
+  .forumfront .text-wrapper-11 {
+    color: #000000;
+    font-family: "Inter-ExtraLight", Helvetica;
+    font-size: 25px;
+    font-weight: 200;
+    left: 1477px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 102px;
+    white-space: nowrap;
+  }
+  
+  
+  .forumfront .bx-chat-2 {
+    height: 53px;
+    left: 1511px;
+    position: absolute;
+    top: 36px;
+    width: 53px;
+  }
+
+ /* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+    .forumfront {
+      flex-direction: column;
+    }
+  
+    .forumfront .dashcard {
+      height: auto; /* Allow content to determine height */
+    }
+  }
