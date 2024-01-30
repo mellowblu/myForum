@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import '../css/fdiscussion.css';
+import { AiOutlineLike } from "react-icons/ai";
+import { AiOutlineDislike } from "react-icons/ai";
+import { MdOutlineReply } from "react-icons/md";
 
 const ForumD = () => {
   const [likeCount, setLikeCount] = useState(0);
@@ -49,15 +52,15 @@ const ForumD = () => {
 
             <div className="small d-flex justify-content-start">
               <a href="#!" className="d-flex align-items-center me-3 reaction-button" onClick={() => handleReaction('like')}>
-                <i className="far fa-thumbs-up me-2"></i>
+              <AiOutlineLike />
                 <span className="reaction-counter">{likeCount}</span>
               </a>
               <a href="#!" className="d-flex align-items-center me-3 reaction-button" onClick={() => handleReaction('dislike')}>
-                <i className="far fa-thumbs-down me-2"></i>
+              <AiOutlineDislike />
                 <span className="reaction-counter">{dislikeCount}</span>
               </a>
               <a href="#!" className="d-flex align-items-center me-3 reply-button" onClick={() => console.log("Reply clicked")}>
-                <i className="fas fa-reply me-2"></i>
+                <MdOutlineReply />
                 Reply
               </a>
             </div>
