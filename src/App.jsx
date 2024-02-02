@@ -1,22 +1,13 @@
-
-//import {Route, Routes} from "react-router-dom";
-
+//import { Routes, Route } from "react-router-dom";
 import ForumF from './pages/ForumF';
-//import ForumD from './pages/ForumD';
-
+//import ForumD from './pages/ForumD'; // Assuming ForumD is your discussion details component
 
 function App() {
-
   return (
     <>
-    {/* <Routes>
-      <Route path="/" element={<ForumF/>}/>
-      <Route path="/discussion" element={<ForumD/>}/>
-    </Routes> */}
-    <ForumF/>
-  
+      <ForumF/>
     </>
-  )
+  );  
 }
 
-export default App
+export default App;
