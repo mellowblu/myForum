@@ -41,18 +41,17 @@ document.getElementById("discussionContent").innerText = content;
 
   return (
     <>
-      <body className="ForumDSpace">
+      <div className="ForumDSpace">
         {/*30/24*/}
         <div className="ForumC_ForumDcontainer">
-          {/*30/24*/}
+          {/*02/05/24*/}
           <Link to="/"
-           
             id="TeamCReturnButtonFf"
             className="btn btn-secondary">
             <i
               className="TeamCarrow bx bx-arrow-back"
               style={{ color: "white" }}></i>
-          </Link>
+          </Link> {/*02/05/24*/}
           <div className="TeamCForumC_Forumcard">
             {/*30/24*/}
             <div className="TeamCCardBody">
@@ -61,7 +60,7 @@ document.getElementById("discussionContent").innerText = content;
                 <div>
                   <h6 className="nameUSerfw-bold text-success mb-1">
                     @Luigi
-                  </h6>
+                  </h6>{/*02/05/24*/}
                   <p
                     id="post-time"
                     className=" TeamC_ForumD text-muted small mb-0">
@@ -104,13 +103,13 @@ document.getElementById("discussionContent").innerText = content;
 
               <h2 id="discussionTitle" className="TeamC_discSec mt-3 mb-3 pb-2">
                 Tsukiden Upcoming Events
-              </h2>
+              </h2>{/*02/05/24*/}
 
               <p id="discussionContent" className="TeamC_ForumD mb-4 pb-2">
                 {/*30/24*/}
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                 quam velit, vulputate eu pharetra nec, mattis ac neque.
-              </p>
+              </p>{/*02/05/24*/}
 
               <div className="TeamCFlex d-flex justify-content-start">
                 <a
@@ -159,7 +158,7 @@ document.getElementById("discussionContent").innerText = content;
             </div>
           </div>
         </div>
-      </body>
+      </div> {/*Change div temporarily 2/5/24*/}
     </>
   );
 }
